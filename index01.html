@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="style01.css">
+</head>
+<body>
+    <header class="header">
+        <a href="https://www.youtube.com/ "target="_blank"> <!-- Logo Clickable -->
+            <img src="logo.png" alt="Youtube Logo" class="youtube-logo">
+        </a>
+        
+        <form class="search-bar" action="https://www.youtube.com/" target="_blank"> <!--Search Clickable-->
+            <input class="search-input" type="search" placeholder="Search"aria-label="Search"/>
+            <button type="submit" class="search-btn">
+                <img src="magnify.svg">
+            </button>
+        </form>
+
+        <div class="menu-icons">
+            <a href="https://www.youtube.com/" target="_blank"> <!--Video Clickable-->
+                <img src="video-plus.svg" alt="Upload Video">
+            </a>
+
+            <a href="#"target="_blank">
+                <img src="apps.svg" alt="Apps">
+            </a>
+
+            <a href="#"target="_blank">
+                <img src="bell.svg" alt="Notification">
+            </a>
+            <a href="https://www.youtube.com/@LillyAppetite-vk2lm"target="_blank"> <!--YourChannel Clickable-->
+                <img class="menu-channel-icon" src="https://yt3.googleusercontent.com/nEMJ6bnFRK_zEfpoMhAai3ylM09lbFOZHmOsB_-z00G-ns3OOU_pqzPamx6Gy37Q8hyFDc6JbJE=s176-c-k-c0x00ffffff-no-rj" alt="Your Channel">
+            </a>
+        </div><!--menu-icons-->
+
+    </header>
+    <div class="categories">
+        <section class="category-section">
+            <button class="category active">All</button> <!-- Active = primeiro,selecionado-->
+            <button class="category">Gaming</button>
+            <button class="category">Programming</button>
+            <button class="category">Music</button>
+            <button class="category">Documentaries</button>
+            <button class="category">Films</button>
+            <button class="category">LiveStreams</button>
+            <button class="category">Cartoon</button>
+            <button class="category">Vlogs</button>
+            <button class="category">Others</button>
+        </section><!--category-section-->
+    </div><!--categories-->
+
+    <div class="videos">
+        <section class="video-section">
+
+            <article class="video-container">
+                <a href="https://youtu.be/yVMGhbeHPVo?t=19" target="_blank" class="thumbnail" data-duration="3:24">
+               <img class="thumbnail-image" src="https://i.postimg.cc/cL85BS3r/boost.png" />
+            </a>
+
+            <div class="video-bottom-section">
+                <a href="#" target="_blank">
+                    <img class="channel-icon" src="https://yt3.googleusercontent.com/nEMJ6bnFRK_zEfpoMhAai3ylM09lbFOZHmOsB_-z00G-ns3OOU_pqzPamx6Gy37Q8hyFDc6JbJE=s176-c-k-c0x00ffffff-no-rj" alt="">
+                </a>
+                <div class="video-details">
+                    <a href="#" target="_blank" class="video-title">THE BEST ANTIOXIDANT DRINK</a>
+                    <a href="#" class="video-channel-name">Lilly Appetite</a>
+
+                    <div class="video-metadata">
+                        <span> 4.3 K views </span>
+                        •
+                        <span> 7 weeks ago</span>
+                    </div><!--video-metadata-->
+                </div><!--video-details-->
+            </div><!--video-bottom-section-->
+            </article>
+
+            <article class="video-container">
+                <a href="https://www.youtube.com/watch?v=9Hh__GKsZt4" target="_blank" class="thumbnail" data-duration="2:20">
+               <img class="thumbnail-image" src="https://i.postimg.cc/Bv2Q8bBp/growing.png" />
+            </a>
+
+            <div class="video-bottom-section">
+                <a href="#" target="_blank">
+                    <img class="channel-icon" src="https://yt3.googleusercontent.com/nEMJ6bnFRK_zEfpoMhAai3ylM09lbFOZHmOsB_-z00G-ns3OOU_pqzPamx6Gy37Q8hyFDc6JbJE=s176-c-k-c0x00ffffff-no-rj" alt="">
+                </a>
+                <div class="video-details">
+                    <a href="#" target="_blank" class="video-title">TIPS TO GET  BEAUTIFUL SKIN</a>
+                    <a href="#"  target="_blank" class="video-channel-name">Lilly Appetite</a>
+
+                    <div class="video-metadata">
+                        <span> 1.1 K views </span>
+                        •
+                        <span> 1 week ago</span>
+                    </div><!--video-metadata-->
+                </div><!--video-details-->
+            </div><!--video-bottom-section-->
+            </article>
+
+            <article class="video-container">
+                <a href="https://youtu.be/yVMGhbeHPVo?t=19" target="_blank" class="thumbnail" data-duration="1:24">
+               <img class="thumbnail-image" src="https://i.postimg.cc/cL85BS3r/boost.png" />
+            </a>
+
+            <div class="video-bottom-section">
+                <a href="#" target="_blank">
+                    <img class="channel-icon" src="https://yt3.googleusercontent.com/nEMJ6bnFRK_zEfpoMhAai3ylM09lbFOZHmOsB_-z00G-ns3OOU_pqzPamx6Gy37Q8hyFDc6JbJE=s176-c-k-c0x00ffffff-no-rj" alt="">
+                </a>
+                <div class="video-details">
+                    <a href="#" target="_blank" class="video-title">THE BEST ANTIOXIDANT DRINK</a>
+                    <a href="#" target="_blank" class="video-channel-name">Lilly Appetite</a>
+
+                    <div class="video-metadata">
+                        <span> 4.2 K views </span>
+                        •
+                        <span> 4 weeks ago</span>
+                    </div><!--video-metadata-->
+                </div><!--video-details-->
+            </div><!--video-bottom-section-->
+            </article>
+
+            <article class="video-container">
+                <a href="https://www.youtube.com/watch?v=9Hh__GKsZt4" target="_blank" class="thumbnail" data-duration="5:10">
+                <img class="thumbnail-image" src="https://i.postimg.cc/Bv2Q8bBp/growing.png" />
+            </a>
+
+            <div class="video-bottom-section">
+                <a href="#" target="_blank">
+                    <img class="channel-icon" src="https://yt3.googleusercontent.com/nEMJ6bnFRK_zEfpoMhAai3ylM09lbFOZHmOsB_-z00G-ns3OOU_pqzPamx6Gy37Q8hyFDc6JbJE=s176-c-k-c0x00ffffff-no-rj" alt="">
+                </a>
+                <div class="video-details">
+                    <a href="#" target="_blank"class="video-title">TIPS TO GET  BEAUTIFUL SKIN</a>
+                    <a href="#" target="_blank" class="video-channel-name">Lilly Appetite</a>
+
+                    <div class="video-metadata">
+                        <span> 1.8 K views </span>
+                        •
+                        <span> 2 weeks ago</span>
+                    </div><!--video-metadata-->
+                </div><!--video-details-->
+            </div><!--video-bottom-section-->
+            </article>
+
+            <article class="video-container">
+                <a href="https://youtu.be/yVMGhbeHPVo?t=19" target="_blank" class="thumbnail" data-duration="12:24">
+               <img class="thumbnail-image" src="https://i.postimg.cc/cL85BS3r/boost.png" />
+            </a>
+
+            <div class="video-bottom-section">
+                <a href="#" target="_blank">
+                    <img class="channel-icon" src="https://yt3.googleusercontent.com/nEMJ6bnFRK_zEfpoMhAai3ylM09lbFOZHmOsB_-z00G-ns3OOU_pqzPamx6Gy37Q8hyFDc6JbJE=s176-c-k-c0x00ffffff-no-rj" alt="">
+                </a>
+                <div class="video-details">
+                    <a href="#"target="_blank"class="video-title">THE BEST ANTIOXIDANT DRINK</a>
+                    <a href="#"target="_blank"class="video-channel-name">Lilly Appetite</a>
+
+                    <div class="video-metadata">
+                        <span> 1.5 K views </span>
+                        •
+                        <span> 3 weeks ago</span>
+                    </div><!--video-metadata-->
+                </div><!--video-details-->
+            </div><!--video-bottom-section-->
+            </article>
+
+            <article class="video-container">
+                <a href="https://www.youtube.com/watch?v=9Hh__GKsZt4" target="_blank" class="thumbnail" data-duration="12:04">
+               <img class="thumbnail-image" src="https://i.postimg.cc/Bv2Q8bBp/growing.png " />
+            </a>
+
+            <div class="video-bottom-section">
+                <a href="#" target="_blank">
+                    <img class="channel-icon" src="https://yt3.googleusercontent.com/nEMJ6bnFRK_zEfpoMhAai3ylM09lbFOZHmOsB_-z00G-ns3OOU_pqzPamx6Gy37Q8hyFDc6JbJE=s176-c-k-c0x00ffffff-no-rj" alt="">
+                </a>
+                <div class="video-details">
+                    <a href="#" target="_blank" class="video-title">TIPS TO GET  BEAUTIFUL SKIN</a>
+                    <a href="#" target="_blank" class="video-channel-name">Lilly Appetite</a>
+
+                    <div class="video-metadata">
+                        <span> 5.5 M views </span>
+                        •
+                        <span> 8 weeks ago</span>
+                    </div><!--video-metadata-->
+                </div><!--video-details-->
+            </div><!--video-bottom-section-->
+            </article>
+
+            <article class="video-container">
+                <a href="https://youtu.be/yVMGhbeHPVo?t=19"target="_blank" class="thumbnail" data-duration="2:30">
+               <img class="thumbnail-image" src="https://i.postimg.cc/cL85BS3r/boost.png" />
+            </a>
+
+            <div class="video-bottom-section">
+                <a href="#"target="_blank">
+                    <img class="channel-icon" src="https://yt3.googleusercontent.com/nEMJ6bnFRK_zEfpoMhAai3ylM09lbFOZHmOsB_-z00G-ns3OOU_pqzPamx6Gy37Q8hyFDc6JbJE=s176-c-k-c0x00ffffff-no-rj" alt="">
+                </a>
+                <div class="video-details">
+                    <a href="#" target="_blank" class="video-title">THE BEST ANTIOXIDANT DRINK</a>
+                    <a href="#" target="_blank" class="video-channel-name">Lilly Appetite</a>
+
+                    <div class="video-metadata">
+                        <span> 1.5 K views </span>
+                        •
+                        <span> 4 weeks ago</span>
+                    </div><!--video-metadata-->
+                </div><!--video-details-->
+            </div><!--video-bottom-section-->
+            </article>
+
+            <article class="video-container">
+                <a href="https://www.youtube.com/watch?v=9Hh__GKsZt4" target="_blank" class="thumbnail" data-duration="6:24">
+               <img class="thumbnail-image" src="https://i.postimg.cc/Bv2Q8bBp/growing.png " />
+            </a>
+
+            <div class="video-bottom-section">
+                <a href="#" target="_blank">
+                    <img class="channel-icon" src="https://yt3.googleusercontent.com/nEMJ6bnFRK_zEfpoMhAai3ylM09lbFOZHmOsB_-z00G-ns3OOU_pqzPamx6Gy37Q8hyFDc6JbJE=s176-c-k-c0x00ffffff-no-rj" alt="">
+                </a>
+                <div class="video-details">
+                    <a href="#" target="_blank" class="video-title">TIPS TO GET  BEAUTIFUL SKIN</a>
+                    <a href="#" target="_blank" class="video-channel-name">Lilly Appetite</a>
+
+                    <div class="video-metadata">
+                        <span> 3.5 K views </span>
+                        •
+                        <span> 6 weeks ago</span>
+                    </div><!--video-metadata-->
+                </div><!--video-details-->
+            </div><!--video-bottom-section-->
+            </article>
+        </section>
+    </div>
+    </body>
+</html>
